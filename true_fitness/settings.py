@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f%$i!6qjm1w%l9m836*2rywu&p@6%3in5a4(1=5w!fv3vuki5x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-amyz1ng-truefitness-jfkppklcp2x.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-amyz1ng-truefitness-kq87r6kdxgv.ws-eu107.gitpod.io']
 
 
 # Application definition
